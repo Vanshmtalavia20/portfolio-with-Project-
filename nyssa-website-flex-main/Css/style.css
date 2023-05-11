@@ -1,0 +1,877 @@
+
+
+*{box-sizing: border-box;}
+
+
+
+/* <!-- .header .starts .here --> */
+
+
+
+.header
+{
+    height: 70px;
+    background: white;
+    /* border: 2px solid; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+.header li
+{
+    display: inline;
+    margin-right: 35px;
+}
+
+.header a
+{
+    text-decoration: none;
+    color: darkorchid;
+    transition: .3s;
+}
+
+.header .home
+{
+    text-decoration: underline;
+    color: darkorchid;
+    /* line-height: 20px; */
+}
+
+.header a:hover
+{
+    text-decoration: underline;
+    color: darkcyan;
+    
+}
+
+.header i
+{
+   padding-left: 20px;
+   color: black;
+}
+
+.header  .bars
+{
+    display: none;
+}
+
+
+
+           /* <!-- .header .ends .here --> */
+
+           /* <!-- . .content .here --> */
+
+.content
+{
+    /* border: 2px solid; */
+    /* height: 550px; */
+    background: url(https://www.hdwallpaper.nu/wp-content/uploads/2017/03/furniture-16.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 40px;
+    
+
+}
+
+.content p
+{
+   font-family: cursive;
+   font-size: 30px;   
+}
+
+
+.content h1
+{
+    font-size: 60px;
+    color: white;
+}
+
+.content button
+{
+    height: 60px;
+    width: 170px;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.content .b1
+{
+    background: transparent;
+    border:2px solid white;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.content .b1:hover
+{
+    background: white;
+    color: blue;
+}
+
+.content .b2
+{
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+     /* <!-- .header .ends .here --> */
+
+      /* <!-- .article .starts .here --> */
+
+
+.article
+{
+    background: lightpink;
+    height: 550px;
+    /* border: 2px solid; */
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+
+.article h1
+{
+    font-size: 60px;
+    color: darkturquoise;
+}
+
+.article p
+{
+   font-size: 20px;
+   color: dimgray;
+}
+
+.article .box
+{
+    height: 230px;
+    background: white;
+    /* border: 2px solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article .box .a
+{
+   /* border: 2px solid; */
+   width: 33.33%;
+}
+
+.article .box .r
+{
+  /* border: 2px solid;  */
+  width: 33.33%;
+} 
+
+.article .box .m
+{
+     /* border: 2px solid; */
+     width: 33.33%;
+}
+
+.article .box h2
+{
+    color: rgb(116, 240, 149);
+}
+
+.article .box .Lorem
+{
+    color: indianred;
+}
+
+
+/* <!-- .article .ends .here --> */
+
+      /* <!-- .footer .starts .here --> */
+
+
+      .footer
+      {
+        /* height: 550px; */
+        background: lavenderblush;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 2px solid; */
+        background-size: 100% 100%;
+        background-position: 40% 40%;
+      }
+
+      .footer .box1
+      {
+        /* border: 2px solid; */
+        /* height: 550px; */
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        width: 50%;
+        text-align: center;
+        padding: 100px;
+      }
+
+      .footer .box1 h1 
+      {
+        color: blueviolet;
+        font-size: 50px;
+      }
+
+      .footer .box1 p
+      {
+        color: turquoise;
+        font-size: 20px;
+      }
+
+      /* .footer .box1 .b1 button
+      {
+        height: 45px;
+        width: 120px;
+        font-size: 16px;
+        border-radius: 50px;
+        background: transparent;
+        color: blueviolet;
+        border: 2px solid blueviolet;
+        transition: .3s;
+
+
+      } */
+
+      /* .footer .box1 .b1 button:hover
+      {
+         background: blueviolet;
+         color: white;
+         box-shadow: 0 2px 10px  rgb(136, 84, 184);
+      } */
+
+
+
+
+      .footer .box2
+      {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(https://preview.treethemes.com/nyssa/demo1/wp-content/uploads/sites/8/2023/01/home8_content2-1536x1062.jpg);
+        /* border: 2px solid; */
+        height: 430px;
+        width: 50%;
+        background-size: 100% 100%;
+      }
+
+
+
+             /* <!-- .footer .ends .here --> */
+
+             /* <!-- .contact .starts .here --> */
+
+
+
+    .contact
+    {
+        /* background: darkgray; */
+        /* border: 2px solid; */
+        height: 700px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+
+    .contact h1
+    {
+        font-size: 65px;
+        color: darkslateblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .contact p
+    {
+        font-size: 23px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .contact .rectangle
+    {
+        height: 230px;
+        width: 1000px;
+        /* background: lightseagreen; */
+        /* border: 2px solid; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        /* overflow: hidden; */
+    }
+
+    .contact .rectangle .box1
+    {
+        height: 225px;
+        /* border: 2px solid; */
+        width: 33.33%;
+        background: url(https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project4.jpg);
+        background-size: 100% 100%;
+        z-index: 0;
+        overflow: hidden;
+        /* transition: .4s; */
+        gap: 3px;
+        
+
+    }
+ 
+    .contact .rectangle .box1 .bb1
+    {
+        height:220px;
+        background:url(https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project4.jpg);
+        background-size: 100% 100%;
+        /* border: ; */
+        display: none;
+        transform: scale(1);
+        z-index: -1;
+        /* overflow: hidden; */
+        transition: .3s;
+        padding-top: 90px;
+        
+     
+    
+    }
+
+    .contact .rectangle .box1 .bb1 button
+    {
+        height: 50px;
+        width: 100px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: none;
+        border-radius: 50px;
+      
+    }
+
+
+
+    .contact .rectangle .box1:hover .bb1
+    {
+        display: block;
+        transform: scale(1.1);
+        transition: .3s;
+        
+    }
+
+    .contact .rectangle .box1 .bb1 button:hover
+    {
+           background: darkslateblue;
+           color: white;
+           transition: .3s;
+    }
+
+
+
+  
+
+    .contact .rectangle .box2
+    {
+        height: 225px;
+        /* border: 2px solid; */
+        width: 33.33%;
+        background: url(https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project6.jpg);
+        background-size: 100% 100%;
+        overflow: hidden;
+        gap: 3px;
+        
+
+    }
+
+
+
+    .contact .rectangle .box2 .bb2
+    {
+
+        height:220px;
+        background:url(https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project6.jpg);
+        background-size: 100% 100%;
+        display: none;
+        transform: scale(0);
+        z-index: -1;
+        padding-top: 90px;
+    
+    }
+
+    .contact .rectangle .box2 .bb2 button
+    {
+        height: 50px;
+        width: 100px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: none;
+        border-radius: 50px;
+        
+    }
+
+
+
+
+    .contact .rectangle .box2:hover .bb2
+    {
+        display: block;
+        transform: scale(1.1);
+        /* transition: 3s; */
+    }
+
+
+    .contact .rectangle .box2:hover .bb2
+    {
+        display: block;
+        transform: scale(1.1);
+        
+    }
+
+    .contact .rectangle .box2 .bb2 button:hover
+    {
+           background: darkslateblue;
+           color: white;
+           transition: .3s;
+    }
+
+    .contact .rectangle .box3
+    {
+        height: 225px;
+        /* border: 2px solid; */
+        width: 33.33%;
+        background: url(https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project7.jpg);
+        background-size: 100% 100%;
+        overflow: hidden;
+        gap: 3px;
+        
+
+    }
+
+
+
+    .contact .rectangle .box3 .bb3
+    {
+
+        height:220px;
+        background:url(https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project7.jpg);
+        background-size: 100% 100%;
+        display: none;
+        transform: scale(0);
+        z-index: -1;
+        padding-top: 90px;
+    
+    }
+
+    .contact .rectangle .box3 .bb3 button
+    {
+        height: 50px;
+        width: 100px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: none;
+        border-radius: 50px;
+        
+    }
+
+
+
+
+    .contact .rectangle .box3:hover .bb3
+    {
+        display: block;
+        transform: scale(1.1);
+        /* transition: 3s; */
+    }
+
+
+    .contact .rectangle .box3:hover .bb3
+    {
+        display: block;
+        transform: scale(1.1);
+        
+    }
+
+    .contact .rectangle .box3 .bb3 button:hover
+    {
+           background: darkslateblue;
+           color: white;
+           transition: .3s;
+    }
+
+
+
+    .contact .rectangle2
+    {
+        height: 100px;
+        width: 1000px;
+        /* background: lightgoldenrodyellow; */
+        /* border: 2px solid; */
+        margin-left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact .rectangle2 .box1
+    {
+        /* border: 2px solid; */
+        width: 33.33%;
+    }
+
+    .contact .rectangle2 .box1 p
+    {
+         font-size: 16px;
+         margin-top: -15px;
+    }
+
+
+    
+
+    .contact .button
+    {
+        height: 50px;
+        width: 150px;
+        margin-top: 30px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: lightcoral;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        transition: .3s;
+
+    }
+
+    .contact .button:hover
+    {
+        background: darkslateblue;
+        box-shadow: 0 10px 30px darkslateblue;
+    }
+    
+
+
+
+
+
+                               
+                      /* <!-- .contact .finsishes .here --> */
+
+
+                      /* <!-- .sublast .starts .here --> */
+
+
+
+   .sublast
+   {
+       height: 650px;
+       background: lavenderblush;
+       /* border: 2px solid; */
+       text-align: center;
+       padding: 30px 300px;
+   }
+   
+   .sublast h1
+   {
+       font-size: 58px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   }
+
+
+   .sublast .clients
+   {
+      height: 350px;
+      width: 600px;
+      background: lavenderblush;
+      /* border: 2px solid; */
+      font-size: 18px;
+      padding: 15px 10px;
+   }
+
+   .sublast .clients .images img
+
+   {
+     border-radius: 70px;
+     padding: 15px;
+   }
+
+   .sublast .clients .images .img1:hover
+
+   {
+     background: grey;
+     transition: 1s;
+   }
+
+   .sublast .clients .images .img2:hover
+
+   {
+     background: lightblue;
+     transition: 1s;
+   }
+
+
+   .sublast .clients .images .img3:hover
+
+   {
+     background: lightpink;
+     transition: 1s;
+   }
+
+
+   .sublast .clients .images .img4:hover
+
+   {
+     background: lightseagreen;
+     transition: 1s;
+   }
+
+   .sublast .clients .images .img5:hover
+
+   {
+     background: lightgoldenrodyellow;
+     transition: 1s;
+   }
+
+   .sublast .clients .images h3
+   {
+      margin-top: 0px;
+   }
+
+
+   
+   .sublast .clients .images .p2
+   {
+      margin-top: -10px;
+   }
+
+
+
+   .sublast .images2
+   {
+     height: 100px;
+     width: 700px;
+     background: lavenderblush;
+     /* border: 2px solid; */
+     margin-left: -60px;
+   }
+
+
+
+            
+      /* <!-- .sublast .finishes .here  --> */
+
+
+      /* <!-- .ends .starts .here   --> */
+
+
+
+
+
+   .end
+   {
+        
+        /* border: 2px solid; */
+        height: 690px;
+        background:url(https://preview.treethemes.com/nyssa/demo1/wp-content/uploads/sites/8/2023/01/footerhome8.jpg);
+        background-size: 100% 100%;
+        /* background-position: 50% 90%; */
+        text-align: center;
+        padding: 200px 60px;
+
+     
+   }
+
+
+   .end i
+   {
+     font-size: 50px;
+     color: darkmagenta;
+   }
+
+   .end h1
+   {
+     font-size: 60px;
+   }
+
+   .end .y
+   {
+     margin-top: -40px;
+   }
+
+   .end button
+   {
+     height: 50px;
+     width: 160px;
+     font-size: 20px;
+     border-radius: 50px;
+     border: none;
+     background: lightseagreen;
+     color: white;
+     transition: .4s;
+   }
+
+   .end button:hover
+   {
+    background-color:rgba(90,36,177,0.65);
+
+   }
+
+
+   /* <!-- .sublast .finishes .here  --> */
+
+
+   /* <!-- .lastpage .starts .here   --> */
+
+
+   .lastpage
+   {
+      
+     
+      /* border: 2px solid salmon ;  */
+      /* height: 620px; */
+      background: url(https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2023/01/nyssa_footerdark.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+
+    
+   }
+
+
+   .lastpage .box
+   {
+     /* height: 600px; */
+     width: 100%;
+     /* border: 2px solid lightgoldenrodyellow; */
+     /* background: lightgoldenrodyellow; */
+
+   }
+
+
+   .lastpage .box .box1
+   {
+     /* height: 200px; */
+     width: 100%;
+     /* border: 2px solid firebrick; */
+     /* background: darkkhaki; */
+   }
+
+   .lastpage .box .main
+   {
+    padding: 30px;
+   }
+
+
+   .lastpage .box .main .main2
+   {
+     height: 100px;
+     /* width: 80%; */
+     /* background: rgb(157, 157, 220); */
+     /* border: 2px solid; */
+     position: relative;
+   }
+
+
+ 
+   .box1 h1
+   {
+     color: white;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     letter-spacing: 2px;
+     font-size: 26px;
+   }
+
+   .box1 p
+   {
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   .box1 input
+   {
+     height: 50px;
+     width: 400px;
+     border-radius: 50px;
+     border: none;
+     padding: 20px;
+   }
+.box1 button
+{
+  height: 50px;
+  width: 120px;
+  border-radius: 50px;
+  border: none;
+  background: lightblue;
+  position: absolute;
+  top: 0;
+  left: 64%;
+}
+
+
+
+.lastpage .box .icons
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.lastpage  .icons .i1
+{
+  width: 33.33%;
+  /* border: 2px solid green; */
+  padding: 30px;
+  /* transition: .2s; */
+}
+
+.lastpage .icons p ,a ,i
+{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: .3s;
+}
+
+.lastpage .icons i
+{
+  color: thistle;
+}
+
+.lastpage .icons a:hover
+{
+  color: lightpink;
+}
+
+   
+
+.lastpage .box .cards
+{
+  padding: 20px;
+}
+
+.lastpage .box .cards .p2
+{
+   word-spacing: 30px;
+}
+
+.lastpage .box .cards i:hover
+{
+   color: lightpink;
+}
+
+
+.lastpage .box .cards .p3
+{
+   color: lightcyan;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+   
+
+
+
+

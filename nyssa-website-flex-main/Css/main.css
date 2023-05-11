@@ -1,0 +1,75 @@
+@media(max-width:500px)
+{
+    .header ul{display: none;}
+
+    .header p{display: none;}
+
+    .header .bars{display: block;}
+
+    .content {height: 600px;}
+
+    .article .box{height: auto; width: 100%;}
+
+     .article .box .a{height: auto; width: 100%;}
+
+    .article .box .r{height: auto; width: 100%;}
+
+    .article .box .m{height: auto; width: 100%;} 
+
+    .footer{width: 100%;padding-top: 130px;background: transparent;}
+
+    .footer .box1{width: 100%; height: auto;}
+    .footer .box1 h1{font-size: 30px;}
+    .footer .box1 p{font-size: 15px;}
+
+    .footer .box2{height: auto; width: 100%; padding-top: 300px;}
+
+
+    .contact{padding: 60px -50px;}
+
+    .contact h1{font-size: 40px;}
+
+    .contact .rectangle {width: 300px; margin-left: 30px;}
+
+    .contact .rectangle .box1{width: 300px;}
+
+    .contact .rectangle .box2{display: none;}
+
+    .contact .rectangle .box3{display: none;}
+
+    .contact .rectangle2{ width: 300px; margin-left: 30px;}
+
+    .contact .rectangle2 .box1{ width: 300px;}
+
+    .contact .rectangle2 .bb2{display: none;}
+
+    .contact .rectangle2 .bb3{display: none;}
+
+    .sublast h1{ font-size: 30px;}
+
+    .sublast{padding: 30px 50px; height: 870px;}
+
+    .sublast .clients { width: 300px; height: 650px; 
+        
+        margin-left: -20px;
+    }
+
+    .sublast .images2 {width: 300px;  height: 70px;
+
+        margin-left: -20px;}
+
+    .sublast .images2 .i3 , .i4 , .i5 , .i6 {display: none;}
+
+    .sublast .images2 .i2{ width:100px;}
+
+    .end{height: 400px;}
+
+    .end i {margin-top: -90px;}
+
+    .end h1{font-size: 35px;}
+
+   .lastpage .box .box1 input{ width: 290px;}
+
+   .lastpage .box .icons .i1 , .i2 ,.i3 {width: 100%;}
+
+}
